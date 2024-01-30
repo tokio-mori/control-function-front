@@ -1,49 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
+import './reset.css';
 
 function App() {
   return (
-      <body  class="body">
-        <div class="bn1">
-          <div class="bn2">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-          </div>
-          <div class="bn2">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-          </div>
-          <div class="bn2">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-          </div>
-          <div class="bn2">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-          </div>
-          <div class="bn2">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
+      <body>
+        
+        <div class="body-margin">
+
+        <div class="title-contents">
+            <a href="/" class="bn2">タイトル</a>
           </div>
 
-          <div>
-          <a href="/"><h4 class="bn35">戻る</h4></a>
-            <div>
-              <ol>
-                <li>1</li>
-              </ol>
-            </div>
+          <div class="function-contents">
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+          </div>
+          {/* <div class="function-contents">
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+          </div>
+          <div class="function-contents">
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+          </div> */}
+
+          {/* <div class="link">
+            <a href="/"><h4 class="bn35">戻る</h4></a>
             <a href="/"><h4 class="bn35">進む</h4></a>
           </div>
+
+          <div class="title-contents">
+            <a href="/" class="bn2">タイトル</a>
+          </div>
+
+          <div class="function-contents">
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+          </div>
+          <div class="function-contents">
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">Button</a>
+          </div> */}
+
         </div>
       </body>
   );
