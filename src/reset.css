@@ -74,5 +74,5 @@ textarea:not([rows]) {
 :root {
     /* calc + vwの公式 */
     /* https://web-dev.tech/front-end/css/responsive-font-size-calc-vw/ */
-    font-size: calc(16px + 4 * (100vw - 320px)/448);
+    font-size: calc(14px + 4 * (100vw - 320px)/448);
 }

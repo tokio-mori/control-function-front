@@ -4,7 +4,7 @@ import './reset.css';
 function App() {
   return (
       <body>
-        
+
         <div class="body-margin">
 
         <div class="title-contents">
@@ -12,8 +12,8 @@ function App() {
           </div>
 
           <div class="function-contents">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
+            <a href="/" class="bn3">あいうえおあいうえおあいうえ</a>
+            <a href="/" class="bn3">aiueoaiueo</a>
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
           </div>
