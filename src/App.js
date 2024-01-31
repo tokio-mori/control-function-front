@@ -8,7 +8,7 @@ function App() {
         <div class="body-margin">
 
         <div class="title-contents">
-            <a href="/" class="bn2">タイトル</a>
+            <a href="/" class="bn2">処理機能</a>
           </div>
 
           <div class="function-contents">
@@ -17,7 +17,7 @@ function App() {
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
           </div>
-          {/* <div class="function-contents">
+          <div class="function-contents">
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
@@ -28,15 +28,15 @@ function App() {
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
-          </div> */}
+          </div>
 
-          {/* <div class="link">
+          <div class="link">
             <a href="/"><h4 class="bn35">戻る</h4></a>
             <a href="/"><h4 class="bn35">進む</h4></a>
           </div>
 
           <div class="title-contents">
-            <a href="/" class="bn2">タイトル</a>
+            <a href="/" class="bn2">外部リンク</a>
           </div>
 
           <div class="function-contents">
@@ -44,12 +44,6 @@ function App() {
             <a href="/" class="bn3">Button</a>
             <a href="/" class="bn3">Button</a>
           </div>
-          <div class="function-contents">
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-            <a href="/" class="bn3">Button</a>
-          </div> */}
-
         </div>
       </body>
   );

@@ -1,10 +1,10 @@
 body{
-  background-color: #282c34;
+  background-color: #181818;
 }
-
 
 .function-contents {
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-evenly;
   margin: 0 1rem;
 }
@@ -14,49 +14,49 @@ body{
 }
 
 .bn2 {
-  padding: 1em 5em;
-  margin: 0 0.5em 1em 0;
+  width: 22%;
+  padding: 1em 3em;
+  margin: 0.5em 0 1em 0.5em;
   border: 0.16em solid rgb(255, 255, 255);
   border-radius: 1em;
   text-decoration: none;
   font-weight: 300;
-  color: #ffffff;
-  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  color: #E6E6E6;
   transition: all 0.2s;
+  text-align: center;
 }
 
 .bn2:hover {
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: #E6E6E6;
 }
 
 .bn3 {
   padding: 1em 4.5em;
   margin: 0 0.2em 1em 0;
-  border: 0.15em solid rgb(255, 255, 255);
+  border: 0.15em solid #E6E6E6;
   border-radius: 2em;
   text-decoration: none;
   font-weight: 300;
-  color: #ffffff;
-  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  color: #E6E6E6;
   transition: all 0.2s;
 }
 
 .bn3:hover {
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: #E6E6E6;
 }
 
 .bn35 {
   text-decoration: underline;
-  color: #ffffff;
+  color: #E6E6E6;
 }
 
 .link {
-  margin: 0 10%;
+  margin: 1% 5% 2% 5%;
   display: flex;
   justify-content:space-evenly;
-  color: #ffffff;
+  color: #E6E6E6  ;
   font-size: x-large;
 }
 
