@@ -25,12 +25,12 @@ class ModalComponent extends React.Component {
     return (
       <div>
         <button onClick={this.handleOpenModal} class="bn3">
-          モーダルを開く
+          {this.props.title}
         </button>
 
         <Modal isOpen={this.state.showModal} className="modal">
-          <div class="modal-title">タイトル</div>
-          <div class="modal-contents">ほげほげほげおほげおほげおへ</div>
+          <div class="modal-title">{this.props.title}</div>
+          <div class="modal-contents">{this.props.explanation}</div>
 
           <button onClick={this.handleCloseModal} class="modal-bn">
             実行
