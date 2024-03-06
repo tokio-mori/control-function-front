@@ -36,6 +36,7 @@ function Home() {
           {features.map((feature, index) => (
             <ModalComponent
               key={index}
+              featureName={feature.feature_name}
               title={feature.feature_display_name}
               explanation={feature.feature_explanation}
             />

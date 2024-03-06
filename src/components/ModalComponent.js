@@ -1,3 +1,4 @@
+import axios from "axios";
 import React from "react";
 import Modal from "react-modal";
 
@@ -32,7 +33,10 @@ class ModalComponent extends React.Component {
           <div class="modal-title">{this.props.title}</div>
           <div class="modal-contents">{this.props.explanation}</div>
 
-          <button onClick={this.handleCloseModal} class="modal-bn">
+          <button
+            onClick={executeFeature.bind(this.props.featureName)}
+            class="modal-bn"
+          >
             実行
           </button>
           <button onClick={this.handleCloseModal} class="modal-bn">
@@ -42,6 +46,13 @@ class ModalComponent extends React.Component {
       </div>
     );
   }
+}
+
+async function executeFeature(featureName) {
+  const result = await axios.get(
+    "http://localhost:8080/" + JSON.stringify(featureName)
+  );
+  console.log(result);
 }
 
 export default ModalComponent;
